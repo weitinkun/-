@@ -2,7 +2,11 @@
 
 `site/` 是已构建好的静态网站，包含所有图片、动效和五部视频。每个文件均低于 GitHub 的 100 MiB 单文件限制。大型 ZIP/TAR.GZ 是本地交付包，不应提交到此仓库。
 
-## 使用 Render 发布
+## 使用 GitHub Pages 发布
+
+仓库设置里的 Pages 发布来源选 **GitHub Actions**。推送到 `main` 后，网站会自动发布到 `https://weitinkun.github.io/-/`。`tools/prepare-pages.py` 会将网站资源地址调整为 GitHub Pages 所需的子路径；原始 `site/` 目录保持不变。
+
+## 使用 Render 发布（备用）
 
 [打开 Render 部署页面](https://render.com/deploy?repo=https://github.com/weitinkun/-)
 
