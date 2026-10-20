@@ -4,6 +4,8 @@
 
 ## 使用 Render 发布
 
+[打开 Render 部署页面](https://render.com/deploy?repo=https://github.com/weitinkun/-)
+
 在 Render 连接此 GitHub 仓库后，创建 **Static Site**。若用 Blueprint，仓库根目录的 `render.yaml` 已配置好发布目录；若手动设置，Build Command 填 `echo ready`，Publish Directory 填 `site`。发布成功后，会获得一个 `onrender.com` 地址。
 
 网站内容在本机 `portfolio-react/` 中继续编辑。更新时先在那里重新构建，再将新 `dist/` 文件同步到本仓库 `site/`，提交并推送；Render 会自动重新部署。
