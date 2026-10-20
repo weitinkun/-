@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: wei-tingkun-portfolio
+    runtime: static
+    buildCommand: echo "Using prebuilt portfolio files"
+    staticPublishPath: site
+

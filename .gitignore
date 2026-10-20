@@ -1,0 +1,9 @@
+/.openai/
+/materials-review/
+/portfolio-react/
+/portfolio-site/
+/site-source-open/
+/国内访问部署说明.md
+/*.zip
+/*.tar.gz
+
